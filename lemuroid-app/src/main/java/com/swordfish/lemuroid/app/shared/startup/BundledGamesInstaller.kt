@@ -13,7 +13,7 @@ object BundledGamesInstaller {
     private const val PREFS_KEY_PREFIX = "installed_"
 
     private val ROM_EXTENSIONS =
-        setOf("gb", "gbc", "gba", "nes", "sfc", "smc", "md", "gen", "sms", "gg", "pce", "a26", "a78", "lnx", "ngp", "ngc", "zip")
+        setOf("gb", "gbc", "gba", "nes", "sfc", "smc", "gen", "sms", "gg", "pce", "a26", "a78", "lnx", "ngp", "ngc", "zip")
 
     fun installInBackground(context: Context) {
         val appContext = context.applicationContext
